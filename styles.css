@@ -1,43 +1,21 @@
 body {
-    background-image: url("./images/Cloud.jpg");
-    background-position: center;
-    background-size: cover;
-  }
-  .header-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), #C4AF9A;
-    height: 200px;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-  }
-  
-  .header-text {
-    text-align: center;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-  }
- 
-
-  img {
-    width:150px; 
-    height:150px;
-    border: 2px;
-    margin: 2px;
-
-  }
-
-  .wrapper {
-    position: absolute;
-    display: inline-block;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: bisque;
-    border-color: saddlebrown;
-    border-width: 5px;
-    margin-top: 400px;
+  background-image: url("./first/Cloud.JPG");
+  display: flex;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
 }
 
-  .treat {
+  .content {
+    width: 600px;
+    height: 500px;
+    border: 3px solid black;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+  }
